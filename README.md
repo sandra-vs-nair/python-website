@@ -31,8 +31,6 @@ python3 website.py
 ```
 or you can also use any python IDE.
 
-2. In the command line you will be able to see a message 'Running on http://127.0.0.1:5000/'.
-
-Open http://127.0.0.1:5000 in any of your browser.
+2. In the command line you will be able to see a message 'Running on http://127.0.0.1:5000/'. Open http://127.0.0.1:5000 in any of your browser.
 
 3. You can navigate through the website now.
