@@ -1,0 +1,39 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Signup</title>
+<style>
+body{background-color:#dc9f9f;}
+</style>
+</head>
+<body background="/static/images/sign.jpg" style="background-repeat:no-repeat; background-size: 1400px 800px">
+<h1 style="text-align:center;font-family:Arial;color:#350b03"><u>State Central Library of Kerala</u></h1> 
+<h2>Sign up</h2>
+<form method="post" action="/account">
+<label> Username: <input type=text" maxlength="25" autofocus/></label>
+<br> <br>
+<label>Password: <input type="password"/></label>
+<br> <br>
+<label>Sex: Male<input type="radio" name="name"/>Female<input type="radio" name="name"/></label>
+<br><br>
+<label> Date of birth: <input type="date"/></label>
+<br><br>
+<label>You are a: <input type="text" list="droplist"/>
+<datalist id="droplist">
+<option value= "School student"/>
+<option value= "College student"/>
+<option value= "Professional"/>
+<option value="Others"/>
+</datalist>
+</label><br><br>
+<label>Email: <input type="email" placeholder="name@gmail.com" required/></label>
+<br> <br>
+<label>Address:<br><textarea rows="5" cols="40">Enter address</textarea></label>
+<br> <br>
+<label>Interested in: Action<input type="checkbox"/> Mystery<input type="checkbox"/> Self help<input type="checkbox"/> Dramas<input type="checkbox" Adventure
+<input type="checkbox"/></label><br><br>
+<label>How much do you rate the library? 0<input type="range" min="0" max="10" value="5"/>10</label><br><br>
+<input type="Submit" value="Submit">
+</form>
+</body>
+</html>

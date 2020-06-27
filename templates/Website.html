@@ -1,0 +1,27 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Library</title>
+</head>
+<body bgcolor="#dc9f9f" background="/static/images/backgnd.jpeg"  style="background-repeat:no-repeat; background-size: 3400px 3000px">
+<h1 style="text-align:center;font-family:Arial;color:#350b03"><u>State Central Library of Kerala</u></h1> 
+<img src="/static/images/lib1.jpg" alt="Central Library"/>
+<h2>About</h2>
+<p>State Central Library of Kerala is also known as Trivandrum Public Library.It is situated at the heart of Thiruvananthapuram city, the capital of Kerala. It is
+the first public library in India.The Library was established in the year A.D. 1829 during the reign of King Swathi Thirunal of Travancore. The work of starting 
+and organising the Library was entrusted to Col. Edward Cadogan, then the British Resident who was the grand son of Sir Hans Sloane, the founder of the British 
+Museum. Col. Cadogan was the first president of the Trivandrum Public Library committee, which managed the affairs of the Library. At that time, only a privileged
+class who were called to attend the Durbar of His Highness the Maharaja was allowed admission to the Library. The Library was then known as “Trivandrum People’s
+Library”.</p>
+<hr>
+<h3>Login</h3>
+<form action="/account" method="post">
+<label>Username: <input type=text" maxlength="25"required/></label>
+<br> <br>
+<label>Password: <input type="password"required/></label>
+<br> <br>
+<input onclick="account()" type="submit" value="Submit"/>
+</form>
+<p>Don't have an account? <a href="{{ url_for('signup') }}"> Sign up</a>
+</body>
+</html>

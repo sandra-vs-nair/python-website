@@ -1,0 +1,28 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Account</title>
+<link rel="stylesheet" href="{{url_for('static',filename='css/styles.css')}}">
+</head>
+<body background="/static/images/bg.jpg">
+<h1><u>State Central Library of Kerala</u></h1> 
+<h2>Hey reader!</h2>
+<h3>Your favorite books</h3>
+<ol><li><b>Fiction</b></li>
+<ul><li><a href="{{ url_for('book') }}">Girl on the train</a></li>
+<li>Eleven hours</li>
+<li>The Guide</li>
+<li>White tiger</li>
+</ul>
+<li><b>Short stories</b></li>
+<ul><li>Small towns big stories</li>
+<li>Blue umbrella</li>
+<li>Night train at Deoli</li>
+<li>34 bubblegums and candies</li>
+</ul>
+</ol>
+<form action="/" method="post">
+<input type="submit" value="Sign out">
+</form>
+</body>
+</html>
